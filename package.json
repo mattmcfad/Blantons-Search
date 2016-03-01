@@ -1,0 +1,78 @@
+{
+  "name": "Blantons-Search",
+  "version": "0.1.0",
+  "description": "A boiler-plate setup for Angular/Redux applications",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "redux",
+    "typescript"
+  ],
+  "engines": {
+    "node": "4.x"
+  },
+  "scripts": {
+    "postinstall": "npm run typings && npm run build",
+    "typings": "rimraf typings && typings install",
+    "dev": "cross-env NODE_ENV=development nodemon server.js",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "cross-env NODE_ENV=production webpack",
+    "test": "npm run lint && karma start",
+    "lint": "tslint './src/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rangle/anglar-redux-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rangle/rangle-starter/issues"
+  },
+  "devDependencies": {
+    "angular": "^1.4.9",
+    "angular-mocks": "^1.4.9",
+    "chai": "^3.5.0",
+    "chalk": "^1.1.1",
+    "cross-env": "^1.0.7",
+    "css-loader": "^0.23.1",
+    "es5-shim": "^4.5.6",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.34.4",
+    "express": "^4.13.4",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.7.2",
+    "http-proxy": "^1.13.0",
+    "karma": "^0.13.19",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-coverage": "^0.5.3",
+    "karma-mocha": "^0.2.1",
+    "karma-mocha-reporter": "^1.1.5",
+    "karma-sinon": "^1.0.4",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
+    "ng-redux": "^3.3.3",
+    "nodemon": "^1.8.1",
+    "ramda": "^0.19.1",
+    "raw-loader": "^0.5.1",
+    "redux": "^3.1.7",
+    "redux-logger": "^2.4.0",
+    "redux-thunk": "^1.0.3",
+    "rimraf": "^2.5.1",
+    "serve-webpack-client": "0.0.4",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0",
+    "style-loader": "^0.13.0",
+    "ts-loader": "^0.8.0",
+    "tslint": "^3.4.0",
+    "tslint-loader": "^2.1.0",
+    "typescript": "^1.8.0",
+    "typings": "^0.6.4",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "winston": "^2.1.1"
+  }
+}

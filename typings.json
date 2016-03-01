@@ -1,0 +1,14 @@
+{
+  "ambientDependencies": {
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#86dbea8fc37d9473fee465da4f0a21bea4f8cbd9",
+    "chai": "github:DefinitelyTyped/DefinitelyTyped/chai/chai.d.ts#54f064352a3615443f7bff4198078db15e28247b",
+    "mocha": "github:DefinitelyTyped/DefinitelyTyped/mocha/mocha.d.ts#54f064352a3615443f7bff4198078db15e28247b",
+    "sinon": "github:DefinitelyTyped/DefinitelyTyped/sinon/sinon.d.ts#54f064352a3615443f7bff4198078db15e28247b",
+    "angular-mocks": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-mocks.d.ts#54f064352a3615443f7bff4198078db15e28247b",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#54f064352a3615443f7bff4198078db15e28247b",
+    "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#35989a3ab4834b8e8b2b56788f1d4fc46a25dc8d",
+    "redux": "github:DefinitelyTyped/DefinitelyTyped/redux/redux.d.ts#7136728255d96038795d93c3e4b43c3c7de8ac1e",
+    "redux-logger": "github:DefinitelyTyped/DefinitelyTyped/redux-logger/redux-logger.d.ts#7136728255d96038795d93c3e4b43c3c7de8ac1e",
+    "angular": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular.d.ts#86dbea8fc37d9473fee465da4f0a21bea4f8cbd9"
+  }
+}
