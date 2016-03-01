@@ -1,4 +1,5 @@
-# Angular 1/TypeScript/Webpack Starter
+# Blanton's Search
+## Using: Angular 1/TypeScript/Webpack Starter
 
 > Rangle.io official Angular 1.x, Redux, TypeScript and Webpack starter
 
