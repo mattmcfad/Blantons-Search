@@ -1,3 +1,7 @@
+body {
+  background-color: pink;
+}
+
 .login { height: 100vh; }
 
 .field:invalid,

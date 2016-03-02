@@ -1,6 +1,8 @@
+import './styles/styles.css';
+
 import * as angular from 'angular';
 import rootReducer from './reducers';
-import { CounterComponent } from './components';
+import { CounterComponent, MainComponent } from './components';
 
 const createLogger = require('redux-logger');
 const ngRedux = require('ng-redux');
@@ -22,6 +24,7 @@ angular.module('counter', ['ngRedux'])
       $ngReduxProvider.createStoreWith(rootReducer, middleware);
     }
   ])
+  .directive(MainComponent.selector, MainComponent.directiveFactory)
   .directive('ngrCounter', CounterComponent);
 
 angular.element(document).ready(
